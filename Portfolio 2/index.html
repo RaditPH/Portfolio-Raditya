@@ -6,6 +6,8 @@
     <title>Portfolio 2</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 </head>
 <body>
     <header class="header">
@@ -29,14 +31,9 @@
             <p>Lorem Ipsum</p>
 
             <div class="social-icons">
-                <a href="#"><i class="bx bxl-github"></i></a>
-                <a href="#"><i class="bx bxl-linkedin-square"></i></a>
-                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-            </div>
-
-            <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
-                <a href="#skills" class="btn">Skills</a>
+                <a href="https://github.com/RaditPH"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/radityapastikaheriyanto/"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://www.instagram.com/raditya.heriyanto/"><i class="bx bxl-instagram-alt"></i></a>
             </div>
         </div>
 
@@ -57,39 +54,98 @@
             accusantium solata at sint sequi? Ex vero 
             nihilveritatis, quo libero, culpa sit quam 
             dolor officia natus ea beatae!</p>
-            <a href="cv.pdf" download class="btn">Download My CV</a>
+            <a href="cv.pdf" download class="btn">Download CV</a>
         </div>
     </section>
 
-    <section class="services" id="services">
-        <h2 class="heading">Projects</h2>
+    <section class="projects" id="services">
+  <h2 class="heading">Projects</h2>
+  <div class="projects-container">
 
-        <div class="services-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <i class="bx bx-code-alt"></i>
-                    <h4>Project 1</h4>
-                    <p>Deskripsi project...</p>
-                </div>
-            </div>
-
-            <div class="service-box">
-                <div class="service-info">
-                    <i class="bx bx-data"></i>
-                    <h4>Project 2</h4>
-                    <p>Deskripsi project...</p>
-                </div>
-            </div>
-
-            <div class="service-box">
-                <div class="service-info">
-                    <i class="bx bxl-git"></i>
-                    <h4>Project 3</h4>
-                    <p>Deskripsi project</p>
-                </div>
-            </div>
+    <!-- Project 1 -->
+    <a href="https://github.com/RaditPH/Project-Himalayan-Climbing-Analysis" target="_blank" class="project-card">
+      <img src="analysis.jpg" alt="Himalayan Climbing Analysis">
+      <div class="project-info">
+        <h3>Himalayan Climbing Analysis</h3>
+        <p>Analysis of Himalayan climbing dataset for survival and success rates.</p>
+        <div class="tags">
+          <span>Looker</span>
         </div>
-    </section>
+      </div>
+    </a>
+
+    <!-- Project 2 -->
+    <a href="https://github.com/RaditPH/Project-Data-Analytics-The-Effect-Of-Weather-On-Accident-Rates" target="_blank" class="project-card">
+      <img src="Tingkat keccelakaan berdasarkan cuaca.png" alt="Weather Accident Analysis">
+      <div class="project-info">
+        <h3>Weather & Accident Rates</h3>
+        <p>Data analysis on how weather affects accident rates.</p>
+        <div class="tags">
+          <span>Python</span>
+          <span>Tableau</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 3 -->
+    <a href="https://github.com/RaditPH/Project-Analysis-Morroco-Electricity-Consumption" target="_blank" class="project-card">
+      <img src="Morroco.png" alt="Morocco Electricity Consumption">
+      <div class="project-info">
+        <h3>Morocco Electricity Consumption</h3>
+        <p>Exploratory analysis of Morocco's electricity consumption data.</p>
+        <div class="tags">
+          <span>Python</span>
+          <span>Pandas</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 4 -->
+    <a href="https://github.com/RaditPH/Project-Mental-Health" target="_blank" class="project-card">
+      <img src="Mental Health.png" alt="Mental Health Project">
+      <div class="project-info">
+        <h3>Mental Health</h3>
+        <p>Data analysis and visualization on mental health datasets.</p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Firebase</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 5 -->
+    <a href="https://github.com/RaditPH/Project-Mental-Health" target="_blank" class="project-card">
+      <img src="Dealer Supercar.png" alt="Supercar Dealer Website">
+      <div class="project-info">
+        <h3>Supercar Dealer Website</h3>
+        <p>A responsive website design for a supercar dealership.</p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 6 -->
+    <a href="https://github.com/RaditPH/Project-TodoList" target="_blank" class="project-card">
+      <img src="Todo List.png" alt="ToDoList Project">
+      <div class="project-info">
+        <h3>ToDoList</h3>
+        <p>Simple to-do list application with CRUD functionality.</p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
 
     <section class="skills" id="skills">
         <h2 class="heading">Skills & Tools</h2>
@@ -99,23 +155,25 @@
                 <div class="skill-icons">
                     <i class='bx bxl-python'></i>
                     <i class='bx bxl-javascript'></i>
+                    <i class='bx bxl-html5'></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-mysql'></i>
                     <i class='bx bxl-java'></i>
+                    <i class='bx bxl-firebase'></i>
+                    <i class="fa-brands fa-r-project"></i>
                 </div>
             </div>
-            <div class="skill-category">
-                <h3>Databases</h3>
-                <div class="skill-icons">
-                    <i class='bx bxl-postgresql'></i>
-                    <i class='bx bxl-mongodb'></i>
-                    <i class='bx bxs-data'></i>
-                </div>
-            </div>
+            
             <div class="skill-category">
                 <h3>Tools</h3>
                 <div class="skill-icons">
                     <i class='bx bxl-git'></i>
+                    <i class='bx bxl-github'></i>
                     <i class='bx bxl-visual-studio'></i>
                     <i class='bx bxl-docker'></i>
+                    <i class='bx bxl-figma'></i>
+                    <i class='fa-brands fa-canva'></i>
+                    <i class='fa-brands fa-google'></i>
                 </div>
             </div>
         </div>
@@ -123,9 +181,9 @@
 
     <footer class="footer">
         <div class="social-icons">
-            <a href="#"><i class="bx bxl-github"></i></a>
-            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
-            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://github.com/RaditPH"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/radityapastikaheriyanto/"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="https://www.instagram.com/raditya.heriyanto/"><i class="bx bxl-instagram-alt"></i></a>
         </div>
 
         <ul class="list">
