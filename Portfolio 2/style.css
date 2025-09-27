@@ -108,9 +108,10 @@ section{
 }
 
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8;
+    font-style: italic;
 }
 
 .home-img img{
@@ -212,6 +213,7 @@ section{
 
 .about-content p{
     font-size: 1.8rem;
+    text-align: justify;
 }
 
 .about-content .btn{
@@ -397,10 +399,10 @@ section{
 }
 
 .skill-icons {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 2rem;
-    flex-wrap: wrap;
+    justify-items: center;
 }
 
 .skill-icons i {
